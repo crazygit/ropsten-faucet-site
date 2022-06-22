@@ -1,0 +1,6 @@
+//robots.txt
+
+# Allow all crawlers
+User-agent: *
+Allow: /
+Sitemap: https://faucet.web3door.xyz/sitemap.xml
