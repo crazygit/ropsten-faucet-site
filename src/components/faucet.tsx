@@ -67,7 +67,7 @@ export default function Faucet() {
     hcaptchaRef.current?.execute()
   }
 
-  function handleVerificationSuccess(token: string, _ : string) {
+  function handleVerificationSuccess(token: string, _: string) {
     gtag.event({
       action: "captcha",
       category: "event",
@@ -98,6 +98,10 @@ export default function Faucet() {
           />
         </div>
         <div className="col-span-12 mt-8 flex h-full flex-col items-center justify-end md:col-span-7">
+          <h1 className="text-2xl md:text-2xl mb-8 text-red-500">
+            Ropsten deprecated, this site not work any more <br />
+            Goodbye my friends!
+          </h1>
           <h2 className="text-xl md:text-3xl">Enter Your Ropsten Address</h2>
           <input
             type="input"
